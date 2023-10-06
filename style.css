@@ -1,3 +1,10 @@
+a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+.messages-conteiner > p {
+  margin: 0;
+}
 body {
   border: 0px;
   margin: 0px;
@@ -83,8 +90,8 @@ body {
   width: 100px;
   height: 100px;
   border: solid;
-  border-color: blue;
-  border-radius: 20px;
+  border-color: #3882f6;
+  border-radius: 10px;
 }
 .squarewithtext {
   display: flex;
@@ -104,26 +111,27 @@ body {
 }
 .facu {
   text-align: end;
-  font-size: 12px;
+  font-size: 24px;
   font-weight: bold;
   color: #1f2937;
 }
 .white-box {
-  padding: 100px 50px 100px 50px;
+  padding: 150px;
 }
 .signup-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px 0 50px;
+  padding: 50px 100px;
   background-color: #3882f6;
+  border-radius: 5px;
 }
 .convincing-message {
   font-size: 24px;
   color: #e5e7eb;
 }
 .free-month {
-  font-size: 12px;
+  font-size: 18px;
   color: #e5e7eb;
 }
 .messages-conteiner {
@@ -140,4 +148,12 @@ body {
   color: #e5e7eb;
   background-color: #1f2937;
   font-size: 12px;
+}
+.signup-button {
+  background-color: transparent;
+  padding: 5px 25px;
+  border-radius: 7px;
+  color: #e5e7eb;
+  border-style: solid;
+  border-color: #e5e7eb;
 }
